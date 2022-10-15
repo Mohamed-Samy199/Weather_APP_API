@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>weather</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-blue py-4">
+        <div class="container">
+            <a class="navbar-brand text-light" href="#"><img src="image/logo@2x.png" class="w-25" alt="img"> weather</a>
+        </div>
+    </nav>
+    <section>
+        <div class="container mt-3">
+            <div class="col-sm-12 mb-5">
+                <input id="searchValue" type="text" class="text-info form-control mt-5 w-75 m-auto rounded-pill p-3 bg-blue" placeholder="find your location..." >
+            </div>
+            <div class="col-md-12">
+            <div class="d-flex justify-content-between align-items-center position-relative text-center">
+                <p class="dayOfWeek pt-5 fw-bolder fs-5"></p>
+                <p class="dayOfWeek pt-5 fw-bolder fs-5"></p>
+                <p class="dayOfWeek pt-5 fw-bolder fs-5"></p>
+            </div>
+            </div>
+            <div class="row gy-5" id="myDay" >
+
+            </div>
+        </div>
+    </section>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
